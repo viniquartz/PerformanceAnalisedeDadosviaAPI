@@ -1,0 +1,45 @@
+# Arquivos do sistema
+.DS_Store
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Configurações do IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+
+# Testes e relatórios
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+
+# Distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Arquivos de configuração pessoais
+*.env
+*.local
