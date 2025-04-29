@@ -13,8 +13,11 @@ def main():
     # superusers_names = [user.get("nome") for user in superusers]
     # print(f"total: {total}\n{superusers_names}")
 
-    top_countries = data_analysis.get_top_countries()
-    print(f"top_countries:\n{top_countries}")
+    # top_countries = data_analysis.get_top_countries()
+    # print(f"top_countries:\n{top_countries}")
+    
+    team_insights = data_analysis.get_team_insights()
+    print(json.dumps(team_insights, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":
